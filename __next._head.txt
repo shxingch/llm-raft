@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[97367,["/llm-raft/_next/static/chunks/0dbhjjzl8qfwv.js"],"ViewportBoundary"]
+3:I[97367,["/llm-raft/_next/static/chunks/0dbhjjzl8qfwv.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[27201,["/llm-raft/_next/static/chunks/0dbhjjzl8qfwv.js"],"IconMark"]
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"LLM-Raft"}],["$","meta","1",{"name":"description","content":"Paper homepage for LLM-Raft, a decentralized semantic-consensus framework for coordinating autonomous vehicles in urban traffic."}],["$","meta","2",{"name":"keywords","content":"autonomous vehicles,traffic coordination,LLM,Raft,project page"}],["$","link","3",{"rel":"shortcut icon","href":"/globe.svg"}],["$","link","4",{"rel":"icon","href":"/globe.svg"}],["$","link","5",{"rel":"apple-touch-icon","href":"/globe.svg"}],["$","$L5","6",{}]]}]}]}],null]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"6dv8gbBPYUeLHAFfJvHXB"}
