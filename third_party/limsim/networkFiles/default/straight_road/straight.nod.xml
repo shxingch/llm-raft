@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+    <!-- Simple straight road: left to right, ~600m total -->
+    <node id="W"  x="0.0"    y="0.0" type="dead_end"/>
+    <node id="C1" x="200.0"  y="0.0" type="priority"/>
+    <node id="C2" x="400.0"  y="0.0" type="priority"/>
+    <node id="E"  x="600.0"  y="0.0" type="dead_end"/>
+    <!-- Side roads for turning vehicles (short stubs) -->
+    <node id="N1" x="200.0"  y="80.0" type="dead_end"/>
+    <node id="S1" x="200.0"  y="-80.0" type="dead_end"/>
+    <node id="N2" x="400.0"  y="80.0" type="dead_end"/>
+    <node id="S2" x="400.0"  y="-80.0" type="dead_end"/>
+</nodes>

@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-raft"
+version = "0.1.0"
+description = "LLM-Raft: Decentralized LLM coordination for autonomous vehicles"
+requires-python = ">=3.10"
+authors = [
+  { name = "LLM-Raft Team" }
+]
+dependencies = [
+  "PyYAML>=6.0",
+  "numpy>=1.24",
+  "pybind11[global]>=2.13.0",
+  "scikit-image>=0.24.0",
+]
+
+[project.optional-dependencies]
+llm = [
+  "openai>=1.40.0",
+]
+metaurban = [
+  "metaurban-simulator",
+  "gdown>=5.2.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["llm_raft*"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+
+[tool.ruff.lint.per-file-ignores]
+"runs/**" = ["E402"]  # sys.path manipulation before imports
+
+[tool.uv]
+default-groups = []
+
+[tool.uv.sources]
+metaurban-simulator = { path = "third_party/metaurban", editable = true }

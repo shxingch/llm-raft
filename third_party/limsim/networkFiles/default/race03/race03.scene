@@ -1,0 +1,106 @@
+<version>0.1</version>
+<road id="1" name="3-lane-highway" length="1295.7350965048388" junction="-1">
+  <drivingMaterialGuid>09B39764-2409-4A58-B9AB-D9C18AD5485C</drivingMaterialGuid>
+  <sidewalkMaterialGuid>87B8CB52-7E11-4F22-9CF6-285EC8FE9218</sidewalkMaterialGuid>
+  <borderMaterialGuid>09B39764-2409-4A58-B9AB-D9C18AD5485C</borderMaterialGuid>
+  <shoulderMaterialGuid>09B39764-2409-4A58-B9AB-D9C18AD5485C</shoulderMaterialGuid>
+  <spline type="explicit">
+    <point x="0" y="0" z="0" hdg="1.5707963267948966" type="1"></point>
+    <point x="6.123233995736766e-15" y="100" z="0" hdg="1.5707963267948966" type="3"></point>
+    <point x="46.29743695235736" y="183.64774128511718" z="0" hdg="1.065284478705103" type="3"></point>
+    <point x="155.2294569928216" y="199.28926211367053" z="0" hdg="0.1426149295906411" type="3"></point>
+    <point x="267.51323149606935" y="203.75826806182832" z="0" hdg="0.03977999845128465" type="3"></point>
+    <point x="344.04495839629305" y="199.28926211144807" z="0" hdg="-0.058327923726035145" type="3"></point>
+    <point x="387.0591406686815" y="141.75081050030224" z="0" hdg="-0.9288504267013473" type="3"></point>
+    <point x="401.58341000741007" y="95.3848737628846" z="0" hdg="-1.2672255874850489" type="3"></point>
+    <point x="411.41548722388893" y="-0.9124307123565005" z="0" hdg="-1.4690476433441377" type="3"></point>
+    <point x="408.06373276110537" y="-39.457607034386214" z="0" hdg="-1.6575346654708398" type="3"></point>
+    <point x="305.20792323414275" y="-103.114229671948" z="0" hdg="-2.5873977758145923" type="3"></point>
+    <point x="150" y="-105.34873264713927" z="0" hdg="-3.1271968124055705" type="3"></point>
+    <point x="4.108647327423512" y="-98.64522372379021" z="0" hdg="3.0956763116520407" type="3"></point>
+    <point x="0" y="-31.61013446364177" z="0" hdg="1.6320107461201208" type="3"></point>
+    <point x="-3.7121130857381783" y="-8.706478970164035" z="0" hdg="1.7314742702311425" type="3"></point>
+  </spline>
+  <link></link>
+  <type s="0" type="town">
+    <speed max="40" unit="mph"></speed>
+  </type>
+  <elevationProfile>
+    <elevation s="0" a="0" b="0" c="0" d="0"></elevation>
+    <elevation s="1295.7350965048388" a="0" b="0" c="0" d="0"></elevation>
+  </elevationProfile>
+  <lanes>
+    <laneOffset s="0" a="0" b="0" c="0" d="0"></laneOffset>
+    <laneSection s="0">
+      <left>
+        <lane id="5" type="driving" level="true">
+          <link></link>
+          <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+          <roadMark sOffset="0" type="none" weight="standard" color="white" width="0.3" laneChange="none" height="0" length="3" space="0"></roadMark>
+        </lane>
+        <lane id="4" type="driving" level="true">
+          <link></link>
+          <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+          <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.3" laneChange="none" height="0" length="3" space="0"></roadMark>
+        </lane>
+        <lane id="3" type="driving" level="true">
+          <link></link>
+          <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+          <roadMark sOffset="0" type="broken" weight="standard" color="white" width="0.3" laneChange="none" height="0" length="3" space="4.5"></roadMark>
+        </lane>
+        <lane id="2" type="driving" level="true">
+          <link></link>
+          <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+          <roadMark sOffset="0" type="broken" weight="standard" color="white" width="0.3" laneChange="none" height="0" length="3" space="4.5"></roadMark>
+        </lane>
+        <lane id="1" type="driving" level="true">
+          <link></link>
+          <width sOffset="0" a="2.5" b="0" c="0" d="0"></width>
+          <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.3" laneChange="none" height="0" length="3" space="0"></roadMark>
+        </lane>
+      </left>
+      <center>
+        <lane id="0" type="driving" level="true">
+          <link></link>
+          <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.3" laneChange="none" height="0" length="3" space="0"></roadMark>
+        </lane>
+      </center>
+      <right>
+        <lane id="-1" type="driving" level="true">
+          <link></link>
+          <width sOffset="0" a="2.5" b="0" c="0" d="0"></width>
+          <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.3" laneChange="none" height="0" length="3" space="0"></roadMark>
+        </lane>
+        <lane id="-2" type="driving" level="true">
+          <link></link>
+          <width sOffset="0" a="4" b="0" c="0" d="0"></width>
+          <roadMark sOffset="0" type="broken" weight="standard" color="white" width="0.3" laneChange="none" height="0" length="3" space="4.5"></roadMark>
+        </lane>
+        <lane id="-3" type="driving" level="true">
+          <link></link>
+          <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+          <roadMark sOffset="0" type="broken" weight="standard" color="white" width="0.3" laneChange="none" height="0" length="3" space="4.5"></roadMark>
+        </lane>
+        <lane id="-4" type="driving" level="true">
+          <link></link>
+          <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+          <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.3" laneChange="none" height="0" length="3" space="0"></roadMark>
+        </lane>
+        <lane id="-5" type="driving" level="true">
+          <link></link>
+          <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+          <roadMark sOffset="0" type="none" weight="standard" color="white" width="0.3" laneChange="none" height="0" length="3" space="0"></roadMark>
+        </lane>
+      </right>
+    </laneSection>
+  </lanes>
+  <objects></objects>
+  <signals></signals>
+</road>
+<environment name="Default">
+  <Weather>
+    <Sun azimuth="1" elevation="0" illuminance="6">
+      <Color r="1" g="1" b="1"></Color>
+    </Sun>
+  </Weather>
+</environment>

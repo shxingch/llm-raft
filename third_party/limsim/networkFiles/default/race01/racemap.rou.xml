@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-05-25 20:17:41.960131 by randomTrips.py UNKNOWN
+<configuration>
+    <net-file value="output.net.xml"/>
+    <route-file value="race.rou.xml"/>
+    <length value="True"/>
+    <end value="50.0"/>
+    <period value="0.1"/>
+</configuration>
+-->
+
+<!-- generated on 2024-05-25 20:17:41 by Eclipse SUMO duarouter Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="output.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="race.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="50.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="1" depart="0.10">
+        <route edges="-3 -4 -1 -2"/>
+    </vehicle>
+    <vehicle id="2" depart="0.20">
+        <route edges="2"/>
+    </vehicle>
+    <vehicle id="4" depart="0.40">
+        <route edges="-4 -1"/>
+    </vehicle>
+    <vehicle id="5" depart="0.50">
+        <route edges="-2 -3 -4"/>
+    </vehicle>
+    <vehicle id="6" depart="0.60">
+        <route edges="-1 -2"/>
+    </vehicle>
+    <vehicle id="7" depart="0.70">
+        <route edges="2 1"/>
+    </vehicle>
+    <vehicle id="10" depart="1.00">
+        <route edges="3 2"/>
+    </vehicle>
+    <vehicle id="11" depart="1.10">
+        <route edges="-3 -4 -1 -2"/>
+    </vehicle>
+    <vehicle id="13" depart="1.30">
+        <route edges="-1"/>
+    </vehicle>
+    <vehicle id="14" depart="1.40">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="15" depart="1.50">
+        <route edges="3 2"/>
+    </vehicle>
+    <vehicle id="16" depart="1.60">
+        <route edges="1 4"/>
+    </vehicle>
+    <vehicle id="18" depart="1.80">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="19" depart="1.90">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="21" depart="2.10">
+        <route edges="-2 -3"/>
+    </vehicle>
+    <vehicle id="22" depart="2.20">
+        <route edges="-1 -2"/>
+    </vehicle>
+    <vehicle id="23" depart="2.30">
+        <route edges="-1 -2 -3"/>
+    </vehicle>
+    <vehicle id="25" depart="2.50">
+        <route edges="-3 -4 -1 -2"/>
+    </vehicle>
+    <vehicle id="27" depart="2.70">
+        <route edges="2 1"/>
+    </vehicle>
+    <vehicle id="29" depart="2.90">
+        <route edges="-2 -3"/>
+    </vehicle>
+    <vehicle id="30" depart="3.00">
+        <route edges="4 3 2"/>
+    </vehicle>
+    <vehicle id="31" depart="3.10">
+        <route edges="1 4 3 2"/>
+    </vehicle>
+    <vehicle id="32" depart="3.20">
+        <route edges="3"/>
+    </vehicle>
+    <vehicle id="33" depart="3.30">
+        <route edges="-2 -3 -4 -1"/>
+    </vehicle>
+    <vehicle id="34" depart="3.40">
+        <route edges="-3"/>
+    </vehicle>
+    <vehicle id="39" depart="3.90">
+        <route edges="-3 -4 -1 -2"/>
+    </vehicle>
+    <vehicle id="41" depart="4.10">
+        <route edges="1 4"/>
+    </vehicle>
+    <vehicle id="42" depart="4.20">
+        <route edges="-4 -1 -2"/>
+    </vehicle>
+    <vehicle id="43" depart="4.30">
+        <route edges="4 3 2 1"/>
+    </vehicle>
+    <vehicle id="44" depart="4.40">
+        <route edges="-1"/>
+    </vehicle>
+    <vehicle id="47" depart="4.70">
+        <route edges="-1 -2 -3 -4"/>
+    </vehicle>
+    <vehicle id="48" depart="4.80">
+        <route edges="4 3 2 1"/>
+    </vehicle>
+    <vehicle id="49" depart="4.90">
+        <route edges="4 3"/>
+    </vehicle>
+    <vehicle id="51" depart="5.10">
+        <route edges="2 1"/>
+    </vehicle>
+    <vehicle id="53" depart="5.30">
+        <route edges="-1 -2 -3 -4"/>
+    </vehicle>
+    <vehicle id="56" depart="5.60">
+        <route edges="-4 -1 -2"/>
+    </vehicle>
+    <vehicle id="57" depart="5.70">
+        <route edges="4 3"/>
+    </vehicle>
+    <vehicle id="60" depart="6.00">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="61" depart="6.10">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="62" depart="6.20">
+        <route edges="-1 -2 -3"/>
+    </vehicle>
+    <vehicle id="64" depart="6.40">
+        <route edges="4 3"/>
+    </vehicle>
+    <vehicle id="65" depart="6.50">
+        <route edges="-3 -4 -1"/>
+    </vehicle>
+    <vehicle id="66" depart="6.60">
+        <route edges="4"/>
+    </vehicle>
+    <vehicle id="67" depart="6.70">
+        <route edges="-1 -2 -3 -4"/>
+    </vehicle>
+    <vehicle id="72" depart="7.20">
+        <route edges="-4 -1 -2"/>
+    </vehicle>
+    <vehicle id="73" depart="7.30">
+        <route edges="1 4 3 2"/>
+    </vehicle>
+    <vehicle id="74" depart="7.40">
+        <route edges="-2 -3"/>
+    </vehicle>
+    <vehicle id="75" depart="7.50">
+        <route edges="4 3 2"/>
+    </vehicle>
+    <vehicle id="77" depart="7.70">
+        <route edges="-1 -2"/>
+    </vehicle>
+    <vehicle id="79" depart="7.90">
+        <route edges="-2"/>
+    </vehicle>
+    <vehicle id="84" depart="8.40">
+        <route edges="-2"/>
+    </vehicle>
+    <vehicle id="85" depart="8.50">
+        <route edges="4 3 2 1"/>
+    </vehicle>
+    <vehicle id="88" depart="8.80">
+        <route edges="-1 -2 -3 -4"/>
+    </vehicle>
+    <vehicle id="89" depart="8.90">
+        <route edges="-4"/>
+    </vehicle>
+    <vehicle id="90" depart="9.00">
+        <route edges="2"/>
+    </vehicle>
+    <vehicle id="92" depart="9.20">
+        <route edges="-4 -1 -2 -3"/>
+    </vehicle>
+    <vehicle id="94" depart="9.40">
+        <route edges="-2 -3 -4"/>
+    </vehicle>
+    <vehicle id="95" depart="9.50">
+        <route edges="-4 -1 -2 -3"/>
+    </vehicle>
+    <vehicle id="99" depart="9.90">
+        <route edges="4 3"/>
+    </vehicle>
+    <vehicle id="100" depart="10.00">
+        <route edges="4"/>
+    </vehicle>
+    <vehicle id="102" depart="10.20">
+        <route edges="-4 -1 -2"/>
+    </vehicle>
+    <vehicle id="103" depart="10.30">
+        <route edges="-4 -1"/>
+    </vehicle>
+    <vehicle id="106" depart="10.60">
+        <route edges="-4"/>
+    </vehicle>
+    <vehicle id="107" depart="10.70">
+        <route edges="4"/>
+    </vehicle>
+    <vehicle id="108" depart="10.80">
+        <route edges="1 4 3 2"/>
+    </vehicle>
+    <vehicle id="109" depart="10.90">
+        <route edges="-2 -3"/>
+    </vehicle>
+    <vehicle id="110" depart="11.00">
+        <route edges="4 3 2 1"/>
+    </vehicle>
+    <vehicle id="111" depart="11.10">
+        <route edges="1 4 3 2"/>
+    </vehicle>
+    <vehicle id="115" depart="11.50">
+        <route edges="-1 -2"/>
+    </vehicle>
+    <vehicle id="116" depart="11.60">
+        <route edges="1 4 3 2"/>
+    </vehicle>
+    <vehicle id="117" depart="11.70">
+        <route edges="-2 -3 -4 -1"/>
+    </vehicle>
+    <vehicle id="119" depart="11.90">
+        <route edges="1"/>
+    </vehicle>
+    <vehicle id="121" depart="12.10">
+        <route edges="1 4"/>
+    </vehicle>
+    <vehicle id="123" depart="12.30">
+        <route edges="-2 -3 -4"/>
+    </vehicle>
+    <vehicle id="126" depart="12.60">
+        <route edges="-1 -2 -3 -4"/>
+    </vehicle>
+    <vehicle id="127" depart="12.70">
+        <route edges="4"/>
+    </vehicle>
+    <vehicle id="128" depart="12.80">
+        <route edges="-1 -2"/>
+    </vehicle>
+    <vehicle id="130" depart="13.00">
+        <route edges="4"/>
+    </vehicle>
+    <vehicle id="131" depart="13.10">
+        <route edges="-3 -4 -1 -2"/>
+    </vehicle>
+    <vehicle id="132" depart="13.20">
+        <route edges="3 2"/>
+    </vehicle>
+    <vehicle id="133" depart="13.30">
+        <route edges="1 4"/>
+    </vehicle>
+    <vehicle id="136" depart="13.60">
+        <route edges="2 1 4"/>
+    </vehicle>
+    <vehicle id="137" depart="13.70">
+        <route edges="-2 -3 -4 -1"/>
+    </vehicle>
+    <vehicle id="144" depart="14.40">
+        <route edges="-4 -1 -2 -3"/>
+    </vehicle>
+    <vehicle id="147" depart="14.70">
+        <route edges="2 1"/>
+    </vehicle>
+    <vehicle id="148" depart="14.80">
+        <route edges="-4 -1"/>
+    </vehicle>
+    <vehicle id="150" depart="15.00">
+        <route edges="4 3 2 1"/>
+    </vehicle>
+    <vehicle id="151" depart="15.10">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="152" depart="15.20">
+        <route edges="-2"/>
+    </vehicle>
+    <vehicle id="154" depart="15.40">
+        <route edges="3"/>
+    </vehicle>
+    <vehicle id="156" depart="15.60">
+        <route edges="-2 -3 -4 -1"/>
+    </vehicle>
+    <vehicle id="157" depart="15.70">
+        <route edges="3 2 1 4"/>
+    </vehicle>
+    <vehicle id="160" depart="16.00">
+        <route edges="3 2 1 4"/>
+    </vehicle>
+    <vehicle id="161" depart="16.10">
+        <route edges="3 2 1 4"/>
+    </vehicle>
+    <vehicle id="164" depart="16.40">
+        <route edges="3"/>
+    </vehicle>
+    <vehicle id="167" depart="16.70">
+        <route edges="3"/>
+    </vehicle>
+    <vehicle id="169" depart="16.90">
+        <route edges="-4 -1 -2 -3"/>
+    </vehicle>
+    <vehicle id="171" depart="17.10">
+        <route edges="-1 -2"/>
+    </vehicle>
+    <vehicle id="175" depart="17.50">
+        <route edges="4 3 2 1"/>
+    </vehicle>
+    <vehicle id="179" depart="17.90">
+        <route edges="-1 -2 -3 -4"/>
+    </vehicle>
+    <vehicle id="181" depart="18.10">
+        <route edges="1"/>
+    </vehicle>
+    <vehicle id="185" depart="18.50">
+        <route edges="1 4 3 2"/>
+    </vehicle>
+    <vehicle id="186" depart="18.60">
+        <route edges="2"/>
+    </vehicle>
+    <vehicle id="187" depart="18.70">
+        <route edges="-3 -4 -1"/>
+    </vehicle>
+    <vehicle id="191" depart="19.10">
+        <route edges="-3 -4"/>
+    </vehicle>
+    <vehicle id="192" depart="19.20">
+        <route edges="-4 -1 -2 -3"/>
+    </vehicle>
+    <vehicle id="193" depart="19.30">
+        <route edges="-2 -3 -4"/>
+    </vehicle>
+    <vehicle id="194" depart="19.40">
+        <route edges="4 3 2"/>
+    </vehicle>
+    <vehicle id="195" depart="19.50">
+        <route edges="4 3 2 1"/>
+    </vehicle>
+    <vehicle id="197" depart="19.70">
+        <route edges="-1 -2 -3"/>
+    </vehicle>
+    <vehicle id="200" depart="20.00">
+        <route edges="-4 -1 -2"/>
+    </vehicle>
+    <vehicle id="205" depart="20.50">
+        <route edges="3 2"/>
+    </vehicle>
+    <vehicle id="207" depart="20.70">
+        <route edges="-2 -3 -4 -1"/>
+    </vehicle>
+    <vehicle id="208" depart="20.80">
+        <route edges="-2 -3 -4"/>
+    </vehicle>
+    <vehicle id="212" depart="21.20">
+        <route edges="-4 -1 -2"/>
+    </vehicle>
+    <vehicle id="214" depart="21.40">
+        <route edges="2 1 4 3"/>
+    </vehicle>
+    <vehicle id="215" depart="21.50">
+        <route edges="-1 -2 -3 -4"/>
+    </vehicle>
+    <vehicle id="220" depart="22.00">
+        <route edges="2 1 4"/>
+    </vehicle>
+    <vehicle id="221" depart="22.10">
+        <route edges="1 4"/>
+    </vehicle>
+    <vehicle id="222" depart="22.20">
+        <route edges="4 3 2 1"/>
+    </vehicle>
+    <vehicle id="224" depart="22.40">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="225" depart="22.50">
+        <route edges="4 3 2"/>
+    </vehicle>
+    <vehicle id="226" depart="22.60">
+        <route edges="-4 -1 -2 -3"/>
+    </vehicle>
+    <vehicle id="228" depart="22.80">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="230" depart="23.00">
+        <route edges="-1 -2 -3"/>
+    </vehicle>
+    <vehicle id="231" depart="23.10">
+        <route edges="-3"/>
+    </vehicle>
+    <vehicle id="236" depart="23.60">
+        <route edges="-4 -1 -2"/>
+    </vehicle>
+    <vehicle id="238" depart="23.80">
+        <route edges="1 4 3 2"/>
+    </vehicle>
+    <vehicle id="239" depart="23.90">
+        <route edges="3"/>
+    </vehicle>
+    <vehicle id="240" depart="24.00">
+        <route edges="-3 -4 -1"/>
+    </vehicle>
+    <vehicle id="242" depart="24.20">
+        <route edges="3 2 1 4"/>
+    </vehicle>
+    <vehicle id="244" depart="24.40">
+        <route edges="1"/>
+    </vehicle>
+    <vehicle id="245" depart="24.50">
+        <route edges="-2"/>
+    </vehicle>
+    <vehicle id="246" depart="24.60">
+        <route edges="-4 -1"/>
+    </vehicle>
+    <vehicle id="248" depart="24.80">
+        <route edges="-4 -1 -2"/>
+    </vehicle>
+    <vehicle id="249" depart="24.90">
+        <route edges="-4 -1 -2"/>
+    </vehicle>
+    <vehicle id="253" depart="25.30">
+        <route edges="-2 -3 -4"/>
+    </vehicle>
+    <vehicle id="254" depart="25.40">
+        <route edges="-1 -2 -3"/>
+    </vehicle>
+    <vehicle id="255" depart="25.50">
+        <route edges="-2 -3"/>
+    </vehicle>
+    <vehicle id="257" depart="25.70">
+        <route edges="2 1 4 3"/>
+    </vehicle>
+    <vehicle id="258" depart="25.80">
+        <route edges="-2 -3 -4 -1"/>
+    </vehicle>
+    <vehicle id="261" depart="26.10">
+        <route edges="2 1 4 3"/>
+    </vehicle>
+    <vehicle id="262" depart="26.20">
+        <route edges="2 1 4 3"/>
+    </vehicle>
+    <vehicle id="264" depart="26.40">
+        <route edges="-1 -2"/>
+    </vehicle>
+    <vehicle id="267" depart="26.70">
+        <route edges="2 1 4 3"/>
+    </vehicle>
+    <vehicle id="270" depart="27.00">
+        <route edges="3 2 1 4"/>
+    </vehicle>
+    <vehicle id="271" depart="27.10">
+        <route edges="-1"/>
+    </vehicle>
+    <vehicle id="275" depart="27.50">
+        <route edges="2 1"/>
+    </vehicle>
+    <vehicle id="277" depart="27.70">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="280" depart="28.00">
+        <route edges="-4 -1 -2 -3"/>
+    </vehicle>
+    <vehicle id="281" depart="28.10">
+        <route edges="-4 -1 -2 -3"/>
+    </vehicle>
+    <vehicle id="282" depart="28.20">
+        <route edges="3"/>
+    </vehicle>
+    <vehicle id="284" depart="28.40">
+        <route edges="2 1 4 3"/>
+    </vehicle>
+    <vehicle id="286" depart="28.60">
+        <route edges="2 1 4"/>
+    </vehicle>
+    <vehicle id="294" depart="29.40">
+        <route edges="-3 -4 -1"/>
+    </vehicle>
+    <vehicle id="302" depart="30.20">
+        <route edges="2"/>
+    </vehicle>
+    <vehicle id="304" depart="30.40">
+        <route edges="-1 -2"/>
+    </vehicle>
+    <vehicle id="310" depart="31.00">
+        <route edges="-2 -3 -4 -1"/>
+    </vehicle>
+    <vehicle id="311" depart="31.10">
+        <route edges="-2 -3 -4 -1"/>
+    </vehicle>
+    <vehicle id="312" depart="31.20">
+        <route edges="1 4 3"/>
+    </vehicle>
+    <vehicle id="313" depart="31.30">
+        <route edges="-2"/>
+    </vehicle>
+    <vehicle id="315" depart="31.50">
+        <route edges="4 3 2 1"/>
+    </vehicle>
+    <vehicle id="316" depart="31.60">
+        <route edges="-3 -4 -1"/>
+    </vehicle>
+    <vehicle id="317" depart="31.70">
+        <route edges="-2"/>
+    </vehicle>
+    <vehicle id="318" depart="31.80">
+        <route edges="-2 -3 -4 -1"/>
+    </vehicle>
+    <vehicle id="320" depart="32.00">
+        <route edges="4 3 2 1"/>
+    </vehicle>
+    <vehicle id="323" depart="32.30">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="324" depart="32.40">
+        <route edges="-4"/>
+    </vehicle>
+    <vehicle id="325" depart="32.50">
+        <route edges="-2 -3 -4 -1"/>
+    </vehicle>
+    <vehicle id="329" depart="32.90">
+        <route edges="-1 -2"/>
+    </vehicle>
+    <vehicle id="332" depart="33.20">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="337" depart="33.70">
+        <route edges="1"/>
+    </vehicle>
+    <vehicle id="338" depart="33.80">
+        <route edges="2 1 4"/>
+    </vehicle>
+    <vehicle id="339" depart="33.90">
+        <route edges="-2"/>
+    </vehicle>
+    <vehicle id="341" depart="34.10">
+        <route edges="-2 -3 -4 -1"/>
+    </vehicle>
+    <vehicle id="342" depart="34.20">
+        <route edges="-1 -2 -3 -4"/>
+    </vehicle>
+    <vehicle id="346" depart="34.60">
+        <route edges="2 1 4"/>
+    </vehicle>
+    <vehicle id="347" depart="34.70">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="348" depart="34.80">
+        <route edges="2 1 4"/>
+    </vehicle>
+    <vehicle id="350" depart="35.00">
+        <route edges="2 1 4"/>
+    </vehicle>
+    <vehicle id="352" depart="35.20">
+        <route edges="-2 -3"/>
+    </vehicle>
+    <vehicle id="353" depart="35.30">
+        <route edges="2 1"/>
+    </vehicle>
+    <vehicle id="354" depart="35.40">
+        <route edges="-3 -4 -1"/>
+    </vehicle>
+    <vehicle id="355" depart="35.50">
+        <route edges="2"/>
+    </vehicle>
+    <vehicle id="357" depart="35.70">
+        <route edges="-4 -1"/>
+    </vehicle>
+    <vehicle id="358" depart="35.80">
+        <route edges="-1 -2 -3 -4"/>
+    </vehicle>
+    <vehicle id="359" depart="35.90">
+        <route edges="-3 -4 -1 -2"/>
+    </vehicle>
+    <vehicle id="361" depart="36.10">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="362" depart="36.20">
+        <route edges="4"/>
+    </vehicle>
+    <vehicle id="367" depart="36.70">
+        <route edges="1 4 3 2"/>
+    </vehicle>
+    <vehicle id="368" depart="36.80">
+        <route edges="-4 -1"/>
+    </vehicle>
+    <vehicle id="369" depart="36.90">
+        <route edges="-3"/>
+    </vehicle>
+    <vehicle id="370" depart="37.00">
+        <route edges="2 1 4 3"/>
+    </vehicle>
+    <vehicle id="373" depart="37.30">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="374" depart="37.40">
+        <route edges="-4 -1 -2 -3"/>
+    </vehicle>
+    <vehicle id="377" depart="37.70">
+        <route edges="4 3 2"/>
+    </vehicle>
+    <vehicle id="379" depart="37.90">
+        <route edges="-2 -3"/>
+    </vehicle>
+    <vehicle id="380" depart="38.00">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="382" depart="38.20">
+        <route edges="1 4"/>
+    </vehicle>
+    <vehicle id="388" depart="38.80">
+        <route edges="4"/>
+    </vehicle>
+    <vehicle id="389" depart="38.90">
+        <route edges="-4 -1"/>
+    </vehicle>
+    <vehicle id="391" depart="39.10">
+        <route edges="2 1"/>
+    </vehicle>
+    <vehicle id="395" depart="39.50">
+        <route edges="4 3 2 1"/>
+    </vehicle>
+    <vehicle id="396" depart="39.60">
+        <route edges="4 3"/>
+    </vehicle>
+    <vehicle id="400" depart="40.00">
+        <route edges="-3"/>
+    </vehicle>
+    <vehicle id="401" depart="40.10">
+        <route edges="1 4"/>
+    </vehicle>
+    <vehicle id="402" depart="40.20">
+        <route edges="-4 -1 -2"/>
+    </vehicle>
+    <vehicle id="404" depart="40.40">
+        <route edges="1"/>
+    </vehicle>
+    <vehicle id="405" depart="40.50">
+        <route edges="-4 -1 -2 -3"/>
+    </vehicle>
+    <vehicle id="409" depart="40.90">
+        <route edges="2"/>
+    </vehicle>
+    <vehicle id="411" depart="41.10">
+        <route edges="2 1 4 3"/>
+    </vehicle>
+    <vehicle id="413" depart="41.30">
+        <route edges="-1 -2 -3 -4"/>
+    </vehicle>
+    <vehicle id="414" depart="41.40">
+        <route edges="1 4 3"/>
+    </vehicle>
+    <vehicle id="421" depart="42.10">
+        <route edges="2 1 4 3"/>
+    </vehicle>
+    <vehicle id="422" depart="42.20">
+        <route edges="3"/>
+    </vehicle>
+    <vehicle id="423" depart="42.30">
+        <route edges="-3"/>
+    </vehicle>
+    <vehicle id="424" depart="42.40">
+        <route edges="2 1 4 3"/>
+    </vehicle>
+    <vehicle id="427" depart="42.70">
+        <route edges="4"/>
+    </vehicle>
+    <vehicle id="431" depart="43.10">
+        <route edges="2 1 4"/>
+    </vehicle>
+    <vehicle id="433" depart="43.30">
+        <route edges="-3"/>
+    </vehicle>
+    <vehicle id="435" depart="43.50">
+        <route edges="1 4 3"/>
+    </vehicle>
+    <vehicle id="436" depart="43.60">
+        <route edges="-2 -3 -4 -1"/>
+    </vehicle>
+    <vehicle id="437" depart="43.70">
+        <route edges="3 2 1"/>
+    </vehicle>
+    <vehicle id="439" depart="43.90">
+        <route edges="-2 -3 -4"/>
+    </vehicle>
+    <vehicle id="440" depart="44.00">
+        <route edges="-2 -3"/>
+    </vehicle>
+    <vehicle id="442" depart="44.20">
+        <route edges="4 3 2"/>
+    </vehicle>
+    <vehicle id="443" depart="44.30">
+        <route edges="-2 -3 -4"/>
+    </vehicle>
+    <vehicle id="447" depart="44.70">
+        <route edges="-2 -3 -4"/>
+    </vehicle>
+    <vehicle id="448" depart="44.80">
+        <route edges="-4 -1 -2"/>
+    </vehicle>
+    <vehicle id="449" depart="44.90">
+        <route edges="1"/>
+    </vehicle>
+    <vehicle id="451" depart="45.10">
+        <route edges="4 3 2"/>
+    </vehicle>
+    <vehicle id="453" depart="45.30">
+        <route edges="2"/>
+    </vehicle>
+    <vehicle id="458" depart="45.80">
+        <route edges="2 1"/>
+    </vehicle>
+    <vehicle id="459" depart="45.90">
+        <route edges="2"/>
+    </vehicle>
+    <vehicle id="460" depart="46.00">
+        <route edges="2 1 4 3"/>
+    </vehicle>
+    <vehicle id="461" depart="46.10">
+        <route edges="1 4"/>
+    </vehicle>
+    <vehicle id="466" depart="46.60">
+        <route edges="-2"/>
+    </vehicle>
+    <vehicle id="467" depart="46.70">
+        <route edges="1 4"/>
+    </vehicle>
+    <vehicle id="468" depart="46.80">
+        <route edges="1 4"/>
+    </vehicle>
+    <vehicle id="471" depart="47.10">
+        <route edges="3 2"/>
+    </vehicle>
+    <vehicle id="472" depart="47.20">
+        <route edges="-3 -4 -1"/>
+    </vehicle>
+    <vehicle id="474" depart="47.40">
+        <route edges="4 3"/>
+    </vehicle>
+    <vehicle id="475" depart="47.50">
+        <route edges="2 1 4"/>
+    </vehicle>
+    <vehicle id="476" depart="47.60">
+        <route edges="4 3"/>
+    </vehicle>
+    <vehicle id="480" depart="48.00">
+        <route edges="2 1"/>
+    </vehicle>
+    <vehicle id="481" depart="48.10">
+        <route edges="3 2 1 4"/>
+    </vehicle>
+    <vehicle id="482" depart="48.20">
+        <route edges="-1 -2"/>
+    </vehicle>
+    <vehicle id="484" depart="48.40">
+        <route edges="1 4"/>
+    </vehicle>
+    <vehicle id="485" depart="48.50">
+        <route edges="-2 -3 -4 -1"/>
+    </vehicle>
+    <vehicle id="486" depart="48.60">
+        <route edges="3 2 1 4"/>
+    </vehicle>
+    <vehicle id="487" depart="48.70">
+        <route edges="-3 -4"/>
+    </vehicle>
+    <vehicle id="489" depart="48.90">
+        <route edges="-3 -4"/>
+    </vehicle>
+    <vehicle id="491" depart="49.10">
+        <route edges="-2 -3 -4"/>
+    </vehicle>
+    <vehicle id="492" depart="49.20">
+        <route edges="2"/>
+    </vehicle>
+    <vehicle id="495" depart="49.50">
+        <route edges="-4 -1"/>
+    </vehicle>
+    <vehicle id="496" depart="49.60">
+        <route edges="-4"/>
+    </vehicle>
+    <vehicle id="498" depart="49.80">
+        <route edges="-3 -4"/>
+    </vehicle>
+    <vehicle id="499" depart="49.90">
+        <route edges="4 3"/>
+    </vehicle>
+</routes>

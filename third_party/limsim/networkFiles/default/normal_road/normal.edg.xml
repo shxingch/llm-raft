@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+    <!-- Upper road: 3 lanes, 50 km/h -->
+    <edge id="R1"  from="W"  to="M1" numLanes="3" speed="13.89"/>
+    <!-- Turn connecting upper to lower -->
+    <edge id="T1"  from="M1" to="M2" numLanes="3" speed="11.11"/>
+    <!-- Lower road: 3 lanes, 50 km/h -->
+    <edge id="R2"  from="M2" to="E"  numLanes="3" speed="13.89"/>
+    <!-- Reverse direction -->
+    <edge id="-R1" from="M1" to="W"  numLanes="3" speed="13.89"/>
+    <edge id="-T1" from="M2" to="M1" numLanes="3" speed="11.11"/>
+    <edge id="-R2" from="E"  to="M2" numLanes="3" speed="13.89"/>
+</edges>

@@ -1,0 +1,20 @@
+# LimSim Crowded Road Scenario (30-50 vehicles)
+ego_id: "0"
+sumo_cfg: ./networkFiles/llmraft/crowded_road/crowded.sumocfg
+sumo_net: ./networkFiles/llmraft/crowded_road/crowded.net.xml
+sumo_rou: ./networkFiles/llmraft/crowded_road/carlavtypes.rou.xml,networkFiles/llmraft/crowded_road/crowded.rou.xml
+category: crowded_road
+vehicle_count_range: [30, 50]
+designated_ratio_range: [0.3, 0.7]
+max_route_edges: 1
+ego_max_route_edges: 2
+
+speed_limit_kmh: 40
+following_distance_m: 12
+action_noise: 0.03
+
+scene_rules: |
+  Crowded urban road with frequent congestion.
+  Accept slower speeds in dense traffic.
+  Expect frequent stops; avoid unnecessary lane changes.
+  Prioritize collision avoidance over speed.

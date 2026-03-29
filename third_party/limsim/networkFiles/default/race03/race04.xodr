@@ -1,0 +1,124 @@
+<OpenDRIVE>
+  <header revMajor="1" revMinor="1.4" name="Untitled" version="1" date="Thu Jul 04 2019 18:13:30 GMT+0530 (India Standard Time)" north="1" south="0" east="0" west="0" vendor="truevision.ai"></header>
+  <road name="3-lane-highway" length="1295.7350965048379" id="1" junction="-1">
+    <link></link>
+    <type s="0" type="town">
+      <speed max="40" unit="mph"></speed>
+    </type>
+    <planView>
+      <geometry s="0.0000000000000000e+0" x="0.0000000000000000e+0" y="0.0000000000000000e+0" hdg="1.5707963267948966e+0" length="1.0000000000000000e+2">
+        <line/>
+      </geometry>
+      <geometry s="1.0000000000000000e+2" x="6.1232339957367661e-15" y="1.0000000000000000e+2" hdg="1.5707963267948966e+0" length="9.7241018118462279e+1">
+        <spiral curvStart="-0.020718177130312168" curvEnd="0.010321086316763452"></spiral>
+      </geometry>
+      <geometry s="1.9724101811846228e+2" x="4.6297436952357359e+1" y="1.8364774128511718e+2" hdg="1.0652844787051030e+0" length="1.1637968921513277e+2">
+        <spiral curvStart="-0.03132527176676066" curvEnd="0.015469076319995563"></spiral>
+      </geometry>
+      <geometry s="3.1362070733359508e+2" x="1.5522945699282161e+2" y="1.9928926211367053e+2" hdg="1.4261492959064109e-1" length="1.1245191161570114e+2">
+        <spiral curvStart="-0.0036573640551421597" curvEnd="0.001828405709093042"></spiral>
+      </geometry>
+      <geometry s="4.2607261894929621e+2" x="2.6751323149606935e+2" y="2.0375826806182832e+2" hdg="3.9779998451284652e-2" length="7.6711298023598587e+1">
+        <spiral curvStart="-0.005114992653722523" curvEnd="0.002557144599915997"></spiral>
+      </geometry>
+      <geometry s="5.0278391697289481e+2" x="3.4404495839629305e+2" y="1.9928926211144807e+2" hdg="-5.8327923726035145e-2" length="7.5512728884800737e+1">
+        <spiral curvStart="-0.04561172835643494" curvEnd="0.022555416769461337"></spiral>
+      </geometry>
+      <geometry s="5.7829664585769558e+2" x="3.8705914066868149e+2" y="1.4175081050030224e+2" hdg="-9.2885042670134732e-1" length="4.8959177633564551e+1">
+        <spiral curvStart="-0.027600249217103908" curvEnd="0.013777502302673512"></spiral>
+      </geometry>
+      <geometry s="6.2725582349126012e+2" x="4.0158341000741007e+2" y="9.5384873762884595e+1" hdg="-1.2672255874850489e+0" length="9.7060967477674652e+1">
+        <spiral curvStart="-0.008312490577404168" curvEnd="0.004153824924179339"></spiral>
+      </geometry>
+      <geometry s="7.2431679096893481e+2" x="4.1141548722388893e+2" y="-9.1243071235650053e-1" hdg="-1.4690476433441377e+0" length="3.8782322887342872e+1">
+        <spiral curvStart="-0.019430640328104924" curvEnd="0.00971038593930874"></spiral>
+      </geometry>
+      <geometry s="7.6309911385627765e+2" x="4.0806373276110537e+2" y="-3.9457607034386214e+1" hdg="-1.6575346654708398e+0" length="1.2802907214848565e+2">
+        <spiral curvStart="-0.02869141561541967" curvEnd="0.014165603708178542"></spiral>
+      </geometry>
+      <geometry s="8.9112818600476328e+2" x="3.0520792323414275e+2" y="-1.0311422967194800e+2" hdg="-2.5873977758145923e+0" length="1.5825373816693224e+2">
+        <spiral curvStart="-0.013587013829676416" curvEnd="0.00676507024915159"></spiral>
+      </geometry>
+      <geometry s="1.0493819241716956e+3" x="1.5000000000000000e+2" y="-1.0534873264713927e+2" hdg="-3.1271968124055705e+0" length="1.4608069872719437e+2">
+        <spiral curvStart="-0.0016513899361184426" curvEnd="0.0008256520577063764"></spiral>
+      </geometry>
+      <geometry s="1.1954626228988900e+3" x="4.1086473274235118e+0" y="-9.8645223723790210e+1" hdg="3.0956763116520407e+0" length="7.7054642132266011e+1">
+        <spiral curvStart="-0.07363791226434797" curvEnd="0.03564758423143059"></spiral>
+      </geometry>
+      <geometry s="1.2725172650311561e+3" x="0.0000000000000000e+0" y="-3.1610134463641771e+1" hdg="1.6320107461201208e+0" length="2.3217831473681745e+1">
+        <spiral curvStart="0.017133291109476895" curvEnd="-0.00856543461316566"></spiral>
+      </geometry>
+    </planView>
+    <elevationProfile>
+      <elevation s="0" a="0" b="0" c="0" d="0"></elevation>
+      <elevation s="1295.7350965048379" a="0" b="0" c="0" d="0"></elevation>
+    </elevationProfile>
+    <lanes>
+      <laneOffset s="0" a="0" b="0" c="0" d="0"></laneOffset>
+      <laneSection s="0">
+        <left>
+          <lane id="5" type="stop" level="true">
+            <link></link>
+            <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="none" weight="standard" color="white" width="0.3" laneChange="none" height="0"></roadMark>
+          </lane>
+          <lane id="4" type="driving" level="true">
+            <link></link>
+            <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.3" laneChange="none" height="0"></roadMark>
+          </lane>
+          <lane id="3" type="driving" level="true">
+            <link></link>
+            <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="broken" weight="standard" color="white" width="0.3" laneChange="none" height="0"></roadMark>
+          </lane>
+          <lane id="2" type="driving" level="true">
+            <link></link>
+            <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="broken" weight="standard" color="white" width="0.3" laneChange="none" height="0"></roadMark>
+          </lane>
+          <lane id="1" type="border" level="true">
+            <link></link>
+            <width sOffset="0" a="2.5" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.3" laneChange="none" height="0"></roadMark>
+          </lane>
+        </left>
+        <center>
+          <lane id="0" type="driving" level="true">
+            <link></link>
+            <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.3" laneChange="none" height="0"></roadMark>
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="border" level="true">
+            <link></link>
+            <width sOffset="0" a="2.5" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.3" laneChange="none" height="0"></roadMark>
+          </lane>
+          <lane id="-2" type="driving" level="true">
+            <link></link>
+            <width sOffset="0" a="4" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="broken" weight="standard" color="white" width="0.3" laneChange="none" height="0"></roadMark>
+          </lane>
+          <lane id="-3" type="driving" level="true">
+            <link></link>
+            <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="broken" weight="standard" color="white" width="0.3" laneChange="none" height="0"></roadMark>
+          </lane>
+          <lane id="-4" type="driving" level="true">
+            <link></link>
+            <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.3" laneChange="none" height="0"></roadMark>
+          </lane>
+          <lane id="-5" type="stop" level="true">
+            <link></link>
+            <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="none" weight="standard" color="white" width="0.3" laneChange="none" height="0"></roadMark>
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+    <objects></objects>
+    <signals></signals>
+  </road>
+</OpenDRIVE>

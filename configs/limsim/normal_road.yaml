@@ -1,0 +1,20 @@
+# LimSim Normal Road Scenario (10-15 vehicles)
+ego_id: "0"
+sumo_cfg: ./networkFiles/llmraft/normal_road/normal.sumocfg
+sumo_net: ./networkFiles/llmraft/normal_road/normal.net.xml
+sumo_rou: ./networkFiles/llmraft/normal_road/carlavtypes.rou.xml,networkFiles/llmraft/normal_road/normal.rou.xml
+category: normal_road
+vehicle_count_range: [10, 15]
+designated_ratio_range: [0.3, 0.7]
+max_route_edges: 0
+ego_max_route_edges: 3
+
+speed_limit_kmh: 50
+following_distance_m: 10
+action_noise: 0.02
+
+scene_rules: |
+  Normal two-lane urban road with a turning segment.
+  Maintain smooth flow; accelerate on clear stretches.
+  Brake early for upcoming turns.
+  Respect traffic signals at intersections.

@@ -1,0 +1,20 @@
+# LLM-Raft Algorithm Parameters
+
+grouping:
+  communication_range: 30.0   # D_thresh [m]
+  merge_distance: 20.0        # D_merging [m]
+  split_distance: 40.0        # D_division [m]
+
+consensus:
+  election_timeout_s: 0.6
+  heartbeat_timeout_s: 0.3
+  quorum_ratio: 0.5
+
+narrative:
+  default_intent: keep lane
+  default_justification: maintain safety and progress
+
+controller:
+  max_accel: 2.5
+  max_decel: -5.0
+  max_abs_steering: 0.35

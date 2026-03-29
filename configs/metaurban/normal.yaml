@@ -1,0 +1,26 @@
+# MetaUrban Normal Scenario (12-18 vehicles)
+target_vehicle_range: [12, 18]
+traffic_density: 0.18
+spawn_human_num: 3
+object_density: 0.01
+crswalk_density: 0.15
+map_id: SXS
+horizon: 1000
+num_scenarios: 500
+start_seed: 0
+
+# Driving parameters
+speed_limit_kmh: 48
+following_distance_m: 12
+yellow_light_stop_m: 25
+red_light_stop_m: 35
+
+# Control noise
+action_noise: 0.03
+
+# Scene-specific rules
+scene_rules: |
+  Moderate traffic at urban intersection.
+  Some pedestrian activity at crosswalks.
+  Be cautious at intersection entries; yield when gap is tight.
+  Avoid unnecessary lane changes in moderate flow.

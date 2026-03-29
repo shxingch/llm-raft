@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+    <!-- Main straight road: 3 lanes, 50 km/h -->
+    <edge id="E1" from="W"  to="C1" numLanes="3" speed="13.89"/>
+    <edge id="E2" from="C1" to="C2" numLanes="3" speed="13.89"/>
+    <edge id="E3" from="C2" to="E"  numLanes="3" speed="13.89"/>
+    <!-- Reverse direction -->
+    <edge id="-E1" from="C1" to="W"  numLanes="3" speed="13.89"/>
+    <edge id="-E2" from="C2" to="C1" numLanes="3" speed="13.89"/>
+    <edge id="-E3" from="E"  to="C2" numLanes="3" speed="13.89"/>
+    <!-- Side stubs for vehicles to turn off -->
+    <edge id="N1_in"  from="N1" to="C1" numLanes="1" speed="8.33"/>
+    <edge id="N1_out" from="C1" to="N1" numLanes="1" speed="8.33"/>
+    <edge id="S1_in"  from="S1" to="C1" numLanes="1" speed="8.33"/>
+    <edge id="S1_out" from="C1" to="S1" numLanes="1" speed="8.33"/>
+    <edge id="N2_in"  from="N2" to="C2" numLanes="1" speed="8.33"/>
+    <edge id="N2_out" from="C2" to="N2" numLanes="1" speed="8.33"/>
+    <edge id="S2_in"  from="S2" to="C2" numLanes="1" speed="8.33"/>
+    <edge id="S2_out" from="C2" to="S2" numLanes="1" speed="8.33"/>
+</edges>

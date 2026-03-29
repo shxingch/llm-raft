@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+    <!-- Two parallel straight roads connected by a turn -->
+    <!-- Upper road: W → M1 (going right, 250m) -->
+    <node id="W"  x="0"   y="40" type="dead_end"/>
+    <node id="M1" x="250" y="40" type="priority"/>
+    <!-- Turn section: M1 → M2 (diagonal, ~50m) -->
+    <node id="M2" x="290" y="0"  type="priority"/>
+    <!-- Lower road: M2 → E (going right, 250m) -->
+    <node id="E"  x="540" y="0"  type="dead_end"/>
+</nodes>

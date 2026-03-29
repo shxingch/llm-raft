@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="16.67" guiShape="passenger"/>
+    <vType id="vehicle.audi.a2" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="16.67" guiShape="passenger" vClass="passenger"/>
+    <vType id="vehicle.audi.etron" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="16.67" guiShape="passenger" vClass="passenger"/>
+    <vType id="vehicle.bmw.grandtourer" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="16.67" guiShape="passenger" vClass="passenger"/>
+    <vType id="vehicle.chevrolet.impala" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="16.67" guiShape="passenger" vClass="passenger"/>
+    <vType id="vehicle.tesla.model3" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="16.67" guiShape="passenger" vClass="passenger"/>
+</routes>

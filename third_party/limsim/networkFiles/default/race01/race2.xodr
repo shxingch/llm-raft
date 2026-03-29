@@ -1,0 +1,363 @@
+<OpenDRIVE>
+  <header revMajor="1" revMinor="4" name="Untitled" version="1" date="Sun May 26 2024 11:29:56 GMT+0800 (中国标准时间)" north="1" south="0" east="0" west="0" vendor="truevision.ai"></header>
+  <road name="Road1" length="237.52205342720794" id="1" junction="-1">
+    <link>
+      <predecessor elementType="road" elementId="4" contactPoint="end"></predecessor>
+      <successor elementType="road" elementId="2" contactPoint="start"></successor>
+    </link>
+    <type s="0" type="town">
+      <speed max="40" unit="mph"></speed>
+    </type>
+    <planView>
+      <geometry s="0.0000000000000000e+0" x="1.4999811102335343e+2" y="2.2700890282921522e+0" hdg="1.5775050265450052e+0" length="2.5822688420228772e+0">
+        <line/>
+      </geometry>
+      <geometry s="2.5822688420228772e+0" x="1.4998078748696466e+2" y="4.8522997608949723e+0" hdg="1.5775050265450052e+0" length="1.1617875787158110e+2">
+        <arc curvature="0.006760256158579288"></arc>
+      </geometry>
+      <geometry s="1.1876102671360397e+2" x="1.0595429613994153e+2" y="1.0915691995965958e+2" hdg="2.3629031899424535e+0" length="1.1617875787158110e+2">
+        <arc curvature="0.006760256158579288"></arc>
+      </geometry>
+      <geometry s="2.3493978458518507e+2" x="1.0683613049768397e+0" y="1.5177999362796245e+2" hdg="3.1483013533399018e+0" length="2.5822688420228701e+0">
+        <line/>
+      </geometry>
+    </planView>
+    <elevationProfile>
+      <elevation s="0" a="0" b="0" c="0" d="0"></elevation>
+      <elevation s="237.52205342720794" a="0" b="0" c="0" d="0"></elevation>
+    </elevationProfile>
+    <lanes>
+      <laneOffset s="0" a="0" b="0" c="0" d="0"></laneOffset>
+      <laneSection s="0">
+        <left>
+          <lane id="3" type="sidewalk" level="true">
+            <link>
+              <predecessor id="3"></predecessor>
+              <successor id="3"></successor>
+            </link>
+            <width sOffset="0" a="2" b="0" c="0" d="0"></width>
+            <height sOffset="0" inner="0.12" outer="0.12"></height>
+          </lane>
+          <lane id="2" type="shoulder" level="true">
+            <link>
+              <predecessor id="2"></predecessor>
+              <successor id="2"></successor>
+            </link>
+            <width sOffset="0" a="0.5" b="0" c="0" d="0"></width>
+          </lane>
+          <lane id="1" type="driving" level="false">
+            <link>
+              <predecessor id="1"></predecessor>
+              <successor id="1"></successor>
+            </link>
+            <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.15" laneChange="none" height="0"></roadMark>
+          </lane>
+        </left>
+        <center>
+          <lane id="0" type="driving" level="false">
+            <link></link>
+            <roadMark sOffset="0" type="broken" weight="standard" color="white" width="0.15" laneChange="none" height="0"></roadMark>
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="true">
+            <link>
+              <predecessor id="-1"></predecessor>
+              <successor id="-1"></successor>
+            </link>
+            <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.15" laneChange="none" height="0"></roadMark>
+          </lane>
+          <lane id="-2" type="shoulder" level="true">
+            <link>
+              <predecessor id="-2"></predecessor>
+              <successor id="-2"></successor>
+            </link>
+            <width sOffset="0" a="0.5" b="0" c="0" d="0"></width>
+          </lane>
+          <lane id="-3" type="sidewalk" level="true">
+            <link>
+              <predecessor id="-3"></predecessor>
+              <successor id="-3"></successor>
+            </link>
+            <width sOffset="0" a="2" b="0" c="0" d="0"></width>
+            <height sOffset="0" inner="0.12" outer="0.12"></height>
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+    <objects></objects>
+    <signals></signals>
+  </road>
+  <road name="Road2" length="237.52205342720796" id="2" junction="-1">
+    <link>
+      <predecessor elementType="road" elementId="1" contactPoint="end"></predecessor>
+      <successor elementType="road" elementId="3" contactPoint="start"></successor>
+    </link>
+    <type s="0" type="town">
+      <speed max="40" unit="mph"></speed>
+    </type>
+    <planView>
+      <geometry s="0.0000000000000000e+0" x="-1.5138494276259746e+0" y="1.5176267009157368e+2" hdg="3.1483013533399018e+0" length="2.5822688420228914e+0">
+        <line/>
+      </geometry>
+      <geometry s="2.5822688420228914e+0" x="-4.0960601602288094e+0" y="1.5174534655518491e+2" hdg="3.1483013533399018e+0" length="1.1617875787158107e+2">
+        <arc curvature="0.006760256158579289"></arc>
+      </geometry>
+      <geometry s="1.1876102671360397e+2" x="-1.0840068035899338e+2" y="1.0771885520816180e+2" hdg="3.9336995167373501e+0" length="1.1617875787158110e+2">
+        <arc curvature="0.006760256158579283"></arc>
+      </geometry>
+      <geometry s="2.3493978458518507e+2" x="-1.5102375402729629e+2" y="2.8329203731971191e+0" hdg="4.7190976801347979e+0" length="2.5822688420228985e+0">
+        <line/>
+      </geometry>
+    </planView>
+    <elevationProfile>
+      <elevation s="0" a="0" b="0" c="0" d="0"></elevation>
+      <elevation s="237.52205342720796" a="0" b="0" c="0" d="0"></elevation>
+    </elevationProfile>
+    <lanes>
+      <laneOffset s="0" a="0" b="0" c="0" d="0"></laneOffset>
+      <laneSection s="0">
+        <left>
+          <lane id="3" type="sidewalk" level="true">
+            <link>
+              <predecessor id="3"></predecessor>
+              <successor id="3"></successor>
+            </link>
+            <width sOffset="0" a="2" b="0" c="0" d="0"></width>
+            <height sOffset="0" inner="0.12" outer="0.12"></height>
+          </lane>
+          <lane id="2" type="shoulder" level="true">
+            <link>
+              <predecessor id="2"></predecessor>
+              <successor id="2"></successor>
+            </link>
+            <width sOffset="0" a="0.5" b="0" c="0" d="0"></width>
+          </lane>
+          <lane id="1" type="driving" level="false">
+            <link>
+              <predecessor id="1"></predecessor>
+              <successor id="1"></successor>
+            </link>
+            <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.15" laneChange="none" height="0"></roadMark>
+          </lane>
+        </left>
+        <center>
+          <lane id="0" type="driving" level="false">
+            <link></link>
+            <roadMark sOffset="0" type="broken" weight="standard" color="white" width="0.15" laneChange="none" height="0"></roadMark>
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="false">
+            <link>
+              <predecessor id="-1"></predecessor>
+              <successor id="-1"></successor>
+            </link>
+            <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.15" laneChange="none" height="0"></roadMark>
+          </lane>
+          <lane id="-2" type="shoulder" level="true">
+            <link>
+              <predecessor id="-2"></predecessor>
+              <successor id="-2"></successor>
+            </link>
+            <width sOffset="0" a="0.5" b="0" c="0" d="0"></width>
+          </lane>
+          <lane id="-3" type="sidewalk" level="true">
+            <link>
+              <predecessor id="-3"></predecessor>
+              <successor id="-3"></successor>
+            </link>
+            <width sOffset="0" a="2" b="0" c="0" d="0"></width>
+            <height sOffset="0" inner="0.12" outer="0.12"></height>
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+    <objects></objects>
+    <signals></signals>
+  </road>
+  <road name="Road3" length="237.52205342720794" id="3" junction="-1">
+    <link>
+      <predecessor elementType="road" elementId="2" contactPoint="end"></predecessor>
+      <successor elementType="road" elementId="4" contactPoint="start"></successor>
+    </link>
+    <type s="0" type="town">
+      <speed max="40" unit="mph"></speed>
+    </type>
+    <planView>
+      <geometry s="0.0000000000000000e+0" x="-1.5100643049090752e+2" y="2.5070964059428547e-1" hdg="4.7190976801347979e+0" length="2.5822688420228843e+0">
+        <line/>
+      </geometry>
+      <geometry s="2.5822688420228843e+0" x="-1.5098910695451875e+2" y="-2.3315010920085300e+0" hdg="4.7190976801347979e+0" length="1.1617875787158110e+2">
+        <arc curvature="0.006760256158579288"></arc>
+      </geometry>
+      <geometry s="1.1876102671360398e+2" x="-1.0696261560749568e+2" y="-1.0663612129077316e+2" hdg="5.5044958435322462e+0" length="1.1617875787158108e+2">
+        <arc curvature="0.00676025615857929"></arc>
+      </geometry>
+      <geometry s="2.3493978458518507e+2" x="-2.0766807725310130e+0" y="-1.4925919495907610e+2" hdg="6.7086997501082379e-3" length="2.5822688420228843e+0">
+        <line/>
+      </geometry>
+    </planView>
+    <elevationProfile>
+      <elevation s="0" a="0" b="0" c="0" d="0"></elevation>
+      <elevation s="237.52205342720794" a="0" b="0" c="0" d="0"></elevation>
+    </elevationProfile>
+    <lanes>
+      <laneOffset s="0" a="0" b="0" c="0" d="0"></laneOffset>
+      <laneSection s="0">
+        <left>
+          <lane id="3" type="sidewalk" level="true">
+            <link>
+              <predecessor id="3"></predecessor>
+              <successor id="3"></successor>
+            </link>
+            <width sOffset="0" a="2" b="0" c="0" d="0"></width>
+            <height sOffset="0" inner="0.12" outer="0.12"></height>
+          </lane>
+          <lane id="2" type="shoulder" level="true">
+            <link>
+              <predecessor id="2"></predecessor>
+              <successor id="2"></successor>
+            </link>
+            <width sOffset="0" a="0.5" b="0" c="0" d="0"></width>
+          </lane>
+          <lane id="1" type="driving" level="false">
+            <link>
+              <predecessor id="1"></predecessor>
+              <successor id="1"></successor>
+            </link>
+            <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.15" laneChange="none" height="0"></roadMark>
+          </lane>
+        </left>
+        <center>
+          <lane id="0" type="driving" level="false">
+            <link></link>
+            <roadMark sOffset="0" type="broken" weight="standard" color="white" width="0.15" laneChange="none" height="0"></roadMark>
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="false">
+            <link>
+              <predecessor id="-1"></predecessor>
+              <successor id="-1"></successor>
+            </link>
+            <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.15" laneChange="none" height="0"></roadMark>
+          </lane>
+          <lane id="-2" type="shoulder" level="true">
+            <link>
+              <predecessor id="-2"></predecessor>
+              <successor id="-2"></successor>
+            </link>
+            <width sOffset="0" a="0.5" b="0" c="0" d="0"></width>
+          </lane>
+          <lane id="-3" type="sidewalk" level="true">
+            <link>
+              <predecessor id="-3"></predecessor>
+              <successor id="-3"></successor>
+            </link>
+            <width sOffset="0" a="2" b="0" c="0" d="0"></width>
+            <height sOffset="0" inner="0.12" outer="0.12"></height>
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+    <objects></objects>
+    <signals></signals>
+  </road>
+  <road name="Road4" length="237.52205342720796" id="4" junction="-1">
+    <link>
+      <predecessor elementType="road" elementId="3" contactPoint="end"></predecessor>
+      <successor elementType="road" elementId="1" contactPoint="start"></successor>
+    </link>
+    <type s="0" type="town">
+      <speed max="40" unit="mph"></speed>
+    </type>
+    <planView>
+      <geometry s="0.0000000000000000e+0" x="5.0552996007180129e-1" y="-1.4924187142268732e+2" hdg="6.7086997501082379e-3" length="2.5822688420228914e+0">
+        <line/>
+      </geometry>
+      <geometry s="2.5822688420228914e+0" x="3.0877406926746360e+0" y="-1.4922454788629855e+2" hdg="6.7086997501082379e-3" length="1.1617875787158107e+2">
+        <arc curvature="0.006760256158579286"></arc>
+      </geometry>
+      <geometry s="1.1876102671360397e+2" x="1.0739236089143924e+2" y="-1.0519805653927548e+2" hdg="7.9210686314755652e-1" length="1.1617875787158110e+2">
+        <arc curvature="0.006760256158579288"></arc>
+      </geometry>
+      <geometry s="2.3493978458518507e+2" x="1.5001543455974220e+2" y="-3.1212170431084729e-1" hdg="1.5775050265450044e+0" length="2.5822688420228985e+0">
+        <line/>
+      </geometry>
+    </planView>
+    <elevationProfile>
+      <elevation s="0" a="0" b="0" c="0" d="0"></elevation>
+      <elevation s="237.52205342720796" a="0" b="0" c="0" d="0"></elevation>
+    </elevationProfile>
+    <lanes>
+      <laneOffset s="0" a="0" b="0" c="0" d="0"></laneOffset>
+      <laneSection s="0">
+        <left>
+          <lane id="3" type="sidewalk" level="true">
+            <link>
+              <predecessor id="3"></predecessor>
+              <successor id="3"></successor>
+            </link>
+            <width sOffset="0" a="2" b="0" c="0" d="0"></width>
+            <height sOffset="0" inner="0.12" outer="0.12"></height>
+          </lane>
+          <lane id="2" type="shoulder" level="true">
+            <link>
+              <predecessor id="2"></predecessor>
+              <successor id="2"></successor>
+            </link>
+            <width sOffset="0" a="0.5" b="0" c="0" d="0"></width>
+          </lane>
+          <lane id="1" type="driving" level="false">
+            <link>
+              <predecessor id="1"></predecessor>
+              <successor id="1"></successor>
+            </link>
+            <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.15" laneChange="none" height="0"></roadMark>
+          </lane>
+        </left>
+        <center>
+          <lane id="0" type="driving" level="false">
+            <link></link>
+            <roadMark sOffset="0" type="broken" weight="standard" color="white" width="0.15" laneChange="none" height="0"></roadMark>
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" type="driving" level="false">
+            <link>
+              <predecessor id="-1"></predecessor>
+              <successor id="-1"></successor>
+            </link>
+            <width sOffset="0" a="3.6" b="0" c="0" d="0"></width>
+            <roadMark sOffset="0" type="solid" weight="standard" color="white" width="0.15" laneChange="none" height="0"></roadMark>
+          </lane>
+          <lane id="-2" type="shoulder" level="true">
+            <link>
+              <predecessor id="-2"></predecessor>
+              <successor id="-2"></successor>
+            </link>
+            <width sOffset="0" a="0.5" b="0" c="0" d="0"></width>
+          </lane>
+          <lane id="-3" type="sidewalk" level="true">
+            <link>
+              <predecessor id="-3"></predecessor>
+              <successor id="-3"></successor>
+            </link>
+            <width sOffset="0" a="2" b="0" c="0" d="0"></width>
+            <height sOffset="0" inner="0.12" outer="0.12"></height>
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+    <objects></objects>
+    <signals></signals>
+  </road>
+</OpenDRIVE>

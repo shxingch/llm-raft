@@ -1,0 +1,27 @@
+# MetaUrban Dense Scenario (25-35 vehicles)
+target_vehicle_range: [25, 35]
+traffic_density: 0.22
+spawn_human_num: 3
+object_density: 0.01
+crswalk_density: 0.1
+map_id: SXS
+horizon: 1000
+num_scenarios: 800
+start_seed: 0
+
+# Driving parameters
+speed_limit_kmh: 40
+following_distance_m: 15
+yellow_light_stop_m: 30
+red_light_stop_m: 40
+
+# Control noise
+action_noise: 0.04
+
+# Scene-specific rules
+scene_rules: |
+  Heavy traffic at urban intersection. Frequent congestion.
+  Proceed through intersection only when gap is clearly safe.
+  Avoid lane changes unless necessary.
+  Accept lower speeds to prevent collisions in dense flow.
+  Expect stop-and-go patterns near intersection.

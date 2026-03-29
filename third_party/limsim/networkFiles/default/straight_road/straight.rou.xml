@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <!-- Normal Road: 15 vehicles on DUAL carriageway (Figure 5 top-left).
+         Upper road (E1→E2): ego + 7 vehicles going right.
+         Lower road (-E3→-E2): 7 vehicles going left.
+         SORTED BY DEPART TIME (SUMO requirement). -->
+
+    <!-- depart=0.0 -->
+    <vehicle id="0" type="vehicle.tesla.model3" depart="0.0" departLane="1" departPos="50" departSpeed="8.0">
+        <route edges="E1 E2"/>
+    </vehicle>
+    <vehicle id="1" type="vehicle.audi.a2" depart="0.0" departLane="0" departPos="30" departSpeed="7.0">
+        <route edges="E1 E2"/>
+    </vehicle>
+    <vehicle id="2" type="vehicle.bmw.grandtourer" depart="0.0" departLane="2" departPos="70" departSpeed="9.0">
+        <route edges="E1 E2"/>
+    </vehicle>
+    <vehicle id="8" type="vehicle.audi.etron" depart="0.0" departLane="0" departPos="30" departSpeed="8.0">
+        <route edges="-E3 -E2"/>
+    </vehicle>
+    <vehicle id="9" type="vehicle.chevrolet.impala" depart="0.0" departLane="1" departPos="60" departSpeed="8.5">
+        <route edges="-E3 -E2"/>
+    </vehicle>
+    <vehicle id="10" type="vehicle.tesla.model3" depart="0.0" departLane="2" departPos="90" departSpeed="7.5">
+        <route edges="-E3"/>
+    </vehicle>
+
+    <!-- depart=0.2 -->
+    <vehicle id="3" type="vehicle.audi.etron" depart="0.2" departLane="0" departPos="100" departSpeed="8.5">
+        <route edges="E1"/>
+    </vehicle>
+    <vehicle id="4" type="vehicle.chevrolet.impala" depart="0.2" departLane="1" departPos="120" departSpeed="7.5">
+        <route edges="E1 E2"/>
+    </vehicle>
+
+    <!-- depart=0.3 -->
+    <vehicle id="11" type="vehicle.audi.a2" depart="0.3" departLane="0" departPos="120" departSpeed="8.0">
+        <route edges="-E3"/>
+    </vehicle>
+    <vehicle id="12" type="vehicle.bmw.grandtourer" depart="0.3" departLane="1" departPos="150" departSpeed="9.0">
+        <route edges="-E3 -E2"/>
+    </vehicle>
+
+    <!-- depart=0.4 -->
+    <vehicle id="5" type="vehicle.tesla.model3" depart="0.4" departLane="2" departPos="40" departSpeed="8.0">
+        <route edges="E1"/>
+    </vehicle>
+    <vehicle id="6" type="vehicle.audi.a2" depart="0.4" departLane="0" departPos="150" departSpeed="9.0">
+        <route edges="E1"/>
+    </vehicle>
+
+    <!-- depart=0.5 -->
+    <vehicle id="13" type="vehicle.audi.etron" depart="0.5" departLane="2" departPos="50" departSpeed="7.0">
+        <route edges="-E3"/>
+    </vehicle>
+    <vehicle id="14" type="vehicle.chevrolet.impala" depart="0.5" departLane="0" departPos="170" departSpeed="8.5">
+        <route edges="-E3 -E2"/>
+    </vehicle>
+
+    <!-- depart=0.6 -->
+    <vehicle id="7" type="vehicle.bmw.grandtourer" depart="0.6" departLane="1" departPos="160" departSpeed="7.0">
+        <route edges="E1"/>
+    </vehicle>
+</routes>

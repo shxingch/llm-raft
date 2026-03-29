@@ -1,0 +1,54 @@
+# Python virtualenv
+llmraft/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.ruff_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Runtime cache
+.cache/
+
+# Large binary assets
+*.zip
+*.tar.gz
+*.pth
+*.ckpt
+*.pdf
+
+# Internal docs / results (not shipped)
+docs/
+results/
+
+# MetaUrban large assets (download separately)
+third_party/metaurban/metaurban/assets/
+third_party/metaurban/metaurban/assets_pedestrain/
+third_party/metaurban/metaurban/render_pipeline/
+third_party/metaurban/metaurban/orca_algo/build/
+third_party/metaurban/documentation/
+third_party/metaurban/web-download/
+third_party/metaurban/*.part
+
+# LimSim build artifacts
+third_party/limsim/results/
+third_party/limsim/*.db
+third_party/limsim/*.log
+
+# Environment secrets
+.env

@@ -1,0 +1,26 @@
+# MetaUrban Sparse Scenario (5-8 vehicles)
+target_vehicle_range: [5, 8]
+traffic_density: 0.08
+spawn_human_num: 1
+object_density: 0.01
+crswalk_density: 0.1
+map_id: SXS
+horizon: 1000
+num_scenarios: 300
+start_seed: 0
+
+# Driving parameters (injected into LLM prompt)
+speed_limit_kmh: 60
+following_distance_m: 10
+yellow_light_stop_m: 20
+red_light_stop_m: 35
+
+# Control noise — simulates real-world actuator imprecision
+action_noise: 0.02
+
+# Scene-specific rules for LLM
+scene_rules: |
+  Light traffic at urban intersection. Good visibility.
+  Low pedestrian activity.
+  Prioritize efficient throughput while respecting signals.
+  Accelerate smoothly on green; aim near speed limit on clear roads.
